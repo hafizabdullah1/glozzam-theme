@@ -1,0 +1,28 @@
+{
+    important things
+   1- colors name
+    blue = [primary] , red = [danger] , black = [dark] , green = [success]  
+
+   2- padding , margin , font-size me [0 se 5] tak value ha
+
+   3- height , width me [1 se 4] tak vale de sakhty ha
+
+
+}
+
+
+1-border dene k liye
+[border] <= grey light border
+[border-clrName] 
+
+2-margin k liye                                {margin start} , {margin end}
+[m-0 to 5] , [mx-0] , [my-0]  , [mb-0] , [mt-0] , [ms-0] , [me-0]
+
+3-padding k liye                               {margin start} ,{margin end}
+[p-0 to 5] , [px-0] , [py-0] , [pb-0] , [pt-0] ,  [ps-0] , [pe-0]
+
+4-height dene k liye
+[h-0] , [h-1 to h-4] ////[h-1 mean 25% height] , [h-2 50%] , [h-3 75%] , [h-4 100%]
+
+5- font-size k liye
+[fs-0 to 5]

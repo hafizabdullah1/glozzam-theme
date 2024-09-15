@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/20b7b1ace1.js" crossorigin="anonymous"></script> 
+    <title>BootStrap</title>
+    <style>
+        *{
+            /* box-sizing: border-box; */
+            font-family: 'Poppins', sans-serif;
+        }
+        .nav li{
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .nav li:hover{
+            color: rgba(245, 245, 245, 0.81) !important;
+            transition: .5s;
+        }
+        .main{
+            height: 72vh;
+            background-image: url(./img/image2.jpg);
+            background-size: cover;
+        }
+        .main-h1{
+            font-size: 6.8vw !important;
+        }
+        .ready{
+            background-image:linear-gradient(rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.5)) ,url(./img/lights.jpg);
+            background-size: cover;
+            background-attachment:fixed;
+        }
+        .laptop-btn:hover{
+            background: #BB2D3B !important;
+            color: white !important;
+        }
+        .gal-row{
+            background-image:linear-gradient(rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.5)) ,url(./img/lights.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .gal-row i{
+            /* position: relative;
+            left: 50px ; */
+
+            font-size: 60px !important;
+            cursor: pointer;
+        }
+        .footer{
+            background: #000;
+        }
+        .footer h5{
+            font-size: 13px !important;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar section start -->
+
+    <div class="nav container-fluid  bg-dark">
+        <div class="container">
+            <div class="row  d-flex justify-content-between">
+                <div class="col-2 ">
+                <h5 class="pt-2 text-light">Glozzam</h5>
+                </div>
+                <div class="col-lg-5 col-md-7  d-flex">
+                    <ul class="d-none d-sm-flex list-unstyled gap-3 gap-md-4 text-white mt-2 pt-1 pb-2 ps-2 border-start border-3 border-secondary text-nowrap">
+                        <li class="text-light">HOME</li>
+                        <li class="text-muted">ABOUT US</li>
+                        <li class="text-muted">SERVICES</li>
+                        <li class="text-muted">BLOG</li>
+                        <li class="text-muted">CONTACT</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar section End -->
+
+    <!-- Main section start -->
+
+    <div class="main container-fluid d-flex justify-content-sm-center align-items-center">
+
+        <div class="container d-flex justify-content-center flex-column align-items-start">
+
+            <h1 class="text-light text-sm-center text-start main-h1 pt-2 fs-sm-1">HEADING ONE</h1>
+            <p class="main-p text-light text-start text-sm-center fs-sm-5  pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt perferendis nobis fugit quos aspernatur <br> voluptatem sunt mollitia, nihil! Ducimus, aliquam.</p>
+            <button type="button" class="btn btn-primary main-btn py-2 text-nowrap">Learn More</button>
+
+        </div>
+         
+    </div>
+
+    <!-- Main section End -->
+
+    <!-- info section start-->
+
+    <div class="container-fluid d-flex justify-content-center flex-md-row flex-sm-column flex-column  gap-md-2 align-items-center pt-3 pb-3">
+
+        <div class="col-md-4 col-sm-6 col-9 d-flex justify-content-center flex-column info">
+            <i class="fa-solid fa-gear fs-1 pt-3 text-center"></i>
+            <h4 class="fw-bold text-center mt-5 pt-1">Turning Gears</h4>
+            <p class="text-center mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, maxime.</p>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-9 d-flex justify-content-center flex-column info">
+                <i class="fa-solid fa-cloud fs-1 pt-3 text-center"></i>
+                <h4 class="fw-bold text-center mt-5 pt-1">Sending Data</h4>
+                <p class="text-center mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, maxime.</p>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 col-9 d-flex justify-content-center flex-column info">
+                    <i class="fa-solid fa-cart-shopping fs-1 pt-3 text-center"></i>
+                    <h4 class="fw-bold text-center mt-5 pt-1">Making Money</h4>
+                    <p class="text-center mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, maxime.</p>
+                    </div>
+    </div>
+        
+    
+    <!-- info section End-->
+
+    <!-- ready section Start-->
+
+    <div class="ready container-fluid">
+        <div class="container">
+            <h1 class="h1 text-white text-center pt-5">Are You Ready To Get Started?</h1>
+            <p class="text-center text-white pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita voluptates, consequatur labore placeat doloremque dignissimos exercitationem esse fuga laborum ex!</p>
+        </div>
+    </div>
+
+    <!-- ready section End-->
+
+    <!-- laptop section Start-->
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row d-flex flex-md-row flex-column justify-content-center">
+
+                <div class="col-md-6 col-12 py-4">
+                    <h3 class="pb-1 mt-5 ps-1 fw-bold">Lorem Ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae eaque quos eligendi, laboriosam. Culpa consequuntur illum facere id molestias.</p>
+                    <button type="button" class="btn btn-danger bg-light text-danger laptop-btn">Learn More</button>
+                </div>
+
+                <div class="col-md-6 col-12">
+                <img src="./img/laptop.png" alt="" class="w-100 h-100">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- laptop section End -->
+
+    <!-- Gallery section start -->
+
+    <div class="container-fluid">
+        <div class="gal-row row d-flex justify-content-center">
+
+            <div class="col-8 d-flex flex-column text-center">
+                <i class="fa-solid fa-play text-white fs-1 pt-5 pb-2"></i>
+                <h1 class=" pb-5 text-white">See What We Do</h1>
+            </div>
+        </div>
+        <div class=" row d-flex justify-content-center">
+            <div class="col-8 pb-5">
+                <h1 class="text-center pt-5 fw-bold">Photo Gallery</h1>
+                <p class="text-center pb-5">Check out our photos</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery section End -->
+
+    <!-- Sign Up section start -->
+
+    <div class="sign-up container-fluid bg-dark">
+        <div class="container">
+            <h1 class="pt-5 text-center text-white">Sign Up For Our Newsletter</h1>
+            <p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis magnam similique esse assumenda quasi repellendus illum perferendis quos aliquid possimus.</p>
+           <div class="row pb-5 pt-1 d-flex align-items-center justify-content-center">
+            <div class="col-9 col-sm-12  align-items-start d-flex justify-content-center flex-sm-row flex-column gap-2">
+                <input type="text" placeholder="Enter Name" class=" ps-2 border-0  rounded pt-1 pb-1">
+            <input type="text" placeholder="Enter Email" class=" ps-2 border-0  rounded pt-1 pb-1">
+            <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+           </div>
+        </div>
+    </div>
+
+    <!-- Sign Up section End -->
+
+    <!-- Footer section Start -->
+
+    <div class="container-fluid footer">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-8 pt-4 pb-4 text-center">
+                <h5 class="text-white">Copyright 2017 © Glozzom</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer section End -->
+
+    
+    
+</body>
+</html>
+
+
+
+
+
+
